@@ -1,22 +1,25 @@
-# CursorAI-Python (Version 1.0)
+# Cursor AI Project
 
 ## Overview
 
-CursorAI-Python is a simple AI-powered project generator built using Python and Google's Gemini API.
+Cursor AI Project is an AI-powered software project generator built with Python and Google Gemini API.
 
-The application accepts a natural language prompt from the user, sends it to Gemini, receives a JSON response, and automatically creates the project folder and all required source files.
+The application accepts a user's project idea in natural language, generates a complete project structure, creates all required folders and files, writes the source code automatically, executes the required commands, and opens a local preview of the generated application.
+
+The project follows a modular architecture, making it easy to maintain, extend, and integrate with future AI agents.
 
 ---
 
 ## Features
 
-- Accepts user prompts
-- Connects with Gemini API
-- Uses Prompt Engineering
-- Receives JSON response
-- Converts JSON into Python Dictionary
-- Automatically creates project folders
-- Automatically generates project files
+- Generate complete software projects from natural language prompts.
+- Automatically create folders and files.
+- Support nested project structures.
+- Generate source code for every file.
+- Parse AI responses into structured JSON.
+- Execute generated project commands automatically.
+- Automatically open the generated project preview.
+- Modular Python architecture for scalability.
 
 ---
 
@@ -24,14 +27,16 @@ The application accepts a natural language prompt from the user, sends it to Gem
 
 - Python
 - Google Gemini API
-- python-dotenv
 - JSON
+- python-dotenv
+- subprocess
+- webbrowser
 - pathlib
 - os
 
 ---
 
-## Project Flow
+## Workflow
 
 User Prompt
 
@@ -45,28 +50,90 @@ JSON Response
 
 ↓
 
-Python Dictionary
+Project Generation
 
 ↓
 
-Project Folder Created
+Folder & File Creation
 
 ↓
 
-Project Files Generated
+Command Execution
+
+↓
+
+Automatic Preview
 
 ---
 
-## Current Version
+## Real World Applications
 
-Version 1.0
+This project can be used to generate many different types of software projects, including:
+
+- Portfolio Websites
+- Landing Pages
+- Birthday or Invitation Websites
+- Flask Web Applications
+- Streamlit Applications
+- Dashboard Templates
+- Resume Builders
+- PDF Generator Applications
+- AI Chatbots
+- Blog Templates
+- Business Websites
+- Educational Projects
+- Python Automation Projects
 
 ---
 
-## Upcoming Features
+## Benefits
 
-- AI-generated terminal commands
-- Automatic command execution
-- Browser launch
-- Error detection
-- AI-powered error fixing
+### For Developers
+
+- Reduces repetitive project setup.
+- Saves time while creating boilerplate code.
+- Generates complete folder structures automatically.
+- Provides a quick starting point for development.
+- Speeds up prototyping.
+
+### For Students
+
+- Helps understand professional project structures.
+- Generates practice projects quickly.
+- Useful for learning full project organization.
+- Improves productivity during hackathons and college projects.
+
+### For Teams
+
+- Standardizes project creation.
+- Reduces manual setup effort.
+- Makes rapid experimentation easier.
+
+---
+
+## Current Status
+
+Implemented
+
+- AI Project Generator
+- Automatic Folder Creation
+- Automatic File Generation
+- Nested Folder Support
+- Automatic Command Execution
+- Automatic Project Preview
+
+---
+
+## Future Scope
+
+- One Click Deployment
+- AI Error Detection & Auto Fix
+- Planning Agent
+- Multi-Agent Workflow
+
+
+---
+
+## Author
+
+**Saniya Firdos**
