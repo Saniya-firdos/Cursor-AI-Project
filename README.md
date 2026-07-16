@@ -129,7 +129,11 @@ Implemented
 
 ## Demo video
 
+https://github.com/user-attachments/assets/a6a9e258-1919-4bb0-8bb6-f825e904ffea
+
 ---
+
+
 
 ## Future Scope
 
@@ -141,6 +145,3 @@ Implemented
 
 ---
 
-## Author
-
-**Saniya Firdos**
