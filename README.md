@@ -124,6 +124,31 @@ Implemented
 
 ---
 ## Screenshot
+Screenshot 1
+Terminal
+
+↓
+
+Screenshot 2
+Generated Folder
+
+↓
+
+Screenshot 3
+Website Preview
+
+---
+## Example Prompt
+
+Create a Portfolio Website
+
+↓
+
+Generated Files
+
+index.html
+style.css
+script.js
 
 ---
 
