@@ -123,6 +123,13 @@ Implemented
 - Automatic Project Preview
 
 ---
+## Screenshot
+
+---
+
+## Demo video
+
+---
 
 ## Future Scope
 
